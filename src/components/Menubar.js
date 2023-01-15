@@ -4,7 +4,12 @@ import "./styles/Menubar.css";
 const Menubar = () => {
   return (
     <div className="menubar">
-      <div className="menubar__logo">Logo</div>
+      <div className="menubar__logo">
+        <i className="fa-sharp fa-solid fa-microphone"></i>
+        <span className="menubar_logo-text">
+          POD<span>MATE</span>
+        </span>
+      </div>
       <ul className="menubar__list">
         <li>
           <i className="fa-regular fa-compass"></i>
